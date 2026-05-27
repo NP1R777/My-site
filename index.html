@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoundMarket — колонки известных брендов</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <nav class="nav">
+        <h1 class="logo">SoundMarket</h1>
+        <a href="#catalog" class="button button--small">Смотреть каталог</a>
+      </nav>
+      <div class="hero__content">
+        <p class="badge">Громкие предложения недели</p>
+        <h2>Портативные и домашние колонки от мировых брендов</h2>
+        <p class="hero__text">
+          Выберите мощный звук для дома, улицы или вечеринок. В каталоге только
+          популярные модели с гарантией и быстрой доставкой.
+        </p>
+        <a href="#offer" class="button">Получить скидку 15%</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="catalog" class="section">
+      <div class="container">
+        <h3>Популярные бренды</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>JBL</h4>
+            <p>Легендарные басы, влагозащита и автономность до 24 часов.</p>
+            <span class="price">от 8 990 ₽</span>
+          </article>
+          <article class="card">
+            <h4>Sony</h4>
+            <p>Чистое звучание, интеллектуальные режимы и стильный дизайн.</p>
+            <span class="price">от 10 490 ₽</span>
+          </article>
+          <article class="card">
+            <h4>Bose</h4>
+            <p>Премиальное качество аудио и точная передача каждого инструмента.</p>
+            <span class="price">от 18 990 ₽</span>
+          </article>
+          <article class="card">
+            <h4>Marshall</h4>
+            <p>Винтажный стиль, мощный звук и фирменный характер бренда.</p>
+            <span class="price">от 14 990 ₽</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark">
+      <div class="container perks">
+        <div class="perk">
+          <h4>Официальная гарантия</h4>
+          <p>Только проверенные поставщики и сертифицированная техника.</p>
+        </div>
+        <div class="perk">
+          <h4>Быстрая доставка</h4>
+          <p>Отправляем заказы в день оформления по всей России.</p>
+        </div>
+        <div class="perk">
+          <h4>Рассрочка 0%</h4>
+          <p>Оформляйте покупку в рассрочку без переплат до 12 месяцев.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="offer" class="section offer">
+      <div class="container offer__box">
+        <h3>Специальная акция</h3>
+        <p>
+          Оставьте заявку сегодня и получите скидку 15% на любую колонку JBL или Sony.
+        </p>
+        <form class="offer__form">
+          <label for="phone" class="sr-only">Введите телефон</label>
+          <input id="phone" type="tel" placeholder="+7 (___) ___-__-__" required>
+          <button type="submit" class="button">Оставить заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
